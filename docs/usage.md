@@ -11,6 +11,16 @@
     :docstring:
     :members:
 
+## Automatic Speech Recognition
+
+::: speechtoolkit.asr.WhisperModel
+    :docstring:
+    :members:
+
+::: speechtoolkit.asr.DistilWhisperModel
+    :docstring:
+    :members:
+
 ## Audio Classification
 
 ::: speechtoolkit.classification.languageclassification.WhisperLanguageClassifier

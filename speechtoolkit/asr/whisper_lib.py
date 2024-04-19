@@ -4,6 +4,12 @@ from speechtoolkit.utils.device import device_map
 class WhisperModel:
     """
     Use OpenAI Whisper for automatic speech recognition.
+
+    **Args**
+
+    model (str): Which Whisper model to use
+    device (str): The device to use. Defaults to 'auto'
+    **kwargs: Additional arguments to pass to NS3VC package
     """
 
     def __init__(
@@ -37,4 +43,4 @@ class WhisperModel:
 
         str: The transcript of the audio file.
         """
-        self.model.transcribe(audio_path)
+        return self.model.transcribe(audio_path)

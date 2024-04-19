@@ -6,6 +6,12 @@ from speechtoolkit.utils.device import device_map
 class WhisperLanguageClassifier:
     """
     Use a Whisper-based language classification model.
+
+    **Args**
+
+    device (str): The device to use. Defaults to 'auto'
+    model (str): The model ID to use on the Hugging Face Hub.
+    **kwargs: Additional arguments to pass to NS3VC package
     """
 
     def __init__(

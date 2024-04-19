@@ -1,6 +1,12 @@
 class LVCModel:
     """
     Use LVC-VC (End-to-End Zero-Shot Voice Conversion with Location-Variable Convolutions) for zero-shot voice conversion.
+
+    **Args**
+
+    device (str): The device to use. Defaults to 'auto'
+    use_xl_model (bool): Use the XL model vs. the smaller model. Defaults to 'true'
+    **kwargs: Additional arguments to pass to NS3VC package
     """
 
     def __init__(

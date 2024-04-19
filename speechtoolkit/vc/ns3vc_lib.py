@@ -1,6 +1,11 @@
 class NS3VCModel:
     """
     Use Amphion's NaturalSpeech3 for zero-shot voice conversion
+
+    **Args**
+
+    device (str): The device to use. Defaults to 'auto'
+    **kwargs: Additional arguments to pass to NS3VC package
     """
 
     def __init__(

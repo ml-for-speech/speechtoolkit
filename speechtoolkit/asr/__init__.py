@@ -1,2 +1,2 @@
-from speechtoolkit.asr.whipser_lib import WhisperModel
-from speechtoolkit.asr.distilwhipser_lib import DistilWhisperModel
+from speechtoolkit.asr.whisper_lib import WhisperModel
+from speechtoolkit.asr.distilwhisper_lib import DistilWhisperModel
