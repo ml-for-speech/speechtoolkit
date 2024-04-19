@@ -1,28 +1,28 @@
 from setuptools import setup, find_packages
 
 extras = {
-    'vc': [
-        'lvc',
-        'ns3vc',
+    "vc": [
+        "lvc",
+        "ns3vc",
     ],
-    'asr': [
-        'openai-whisper',
+    "fa2": ["flash-attn"],
+    "asr": [
+        "openai-whisper",
     ],
-
-    'dev': [
-        'mkdocs',
-        'mkautodoc',
-    ]
+    "dev": [
+        "mkdocs",
+        "mkautodoc",
+    ],
 }
 
 extra_pkgs = extras
 final = []
 
-for k, v in extras:
-    if not k == 'dev':
-        final.append(v)
+for k in extras:
+    if not k == "dev":
+        final.append(extras[k])
 
-extra_pkgs['all'] = list(set(final))
+extra_pkgs["all"] = final
 
 with open("README.md", "r") as f:
     longdesc = f.read()
@@ -36,10 +36,11 @@ setup(
     url="https://github.com/ml-for-speech/speechtoolkit",
     packages=find_packages(),
     install_requires=[
-        'soundfile',
-        'librosa',
-        'torch',
-        'transformers',
+        "soundfile",
+        "librosa",
+        "torch",
+        "transformers",
+        "optimum",
     ],
     extras_require=extra_pkgs,
 )
