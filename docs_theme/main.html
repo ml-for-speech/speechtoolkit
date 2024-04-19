@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{%- block footer %}
+    <hr>
+    {%- if config.copyright %}
+        <p>{{ config.copyright }}</p>
+    {%- endif %}
+
+{%- endblock %}

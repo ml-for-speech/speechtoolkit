@@ -1,0 +1,21 @@
+site_name: SpeechToolkit
+copyright: '&copy; 2024 <a href="https://ml-for-speech.github.io/">ML for Speech</a>.'
+# repo_url: https://github.com/ml-for-speech/speechtoolkit
+
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - python
+    - yaml
+    - json
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 191  # /
+  custom_dir: docs_theme
+markdown_extensions:
+  - admonition
+  - codehilite
+  - mkautodoc

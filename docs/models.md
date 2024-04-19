@@ -1,0 +1,46 @@
+# Models
+
+SpeechToolkit supports several different models for various tasks.
+
+## Text-to-Speech
+
+Text to speech is **not currently supported** by SpeechToolkit, but we are actively working on it!
+
+## Automatic Speech Recognition
+
+Below is a list of supported models for automatic speech recognition.
+
+| Name    | License | Link                                            |
+| ------- | ------- | ----------------------------------------------- |
+| Whisper | MIT     | [Repository](https://github.com/openai/whisper) |
+
+## Speech Classification
+
+SpeechToolkit supports several different types of speech classification.
+
+### Language Classification
+
+Automatic language classification uses models to classify the language of spoken audio.
+
+| Name                               | License    | Link                                                                              |
+| ---------------------------------- | ---------- | --------------------------------------------------------------------------------- |
+| WhisperLanguageClassifier | Apache 2.0 | [Model](https://huggingface.co/sanchit-gandhi/whisper-base-ft-common-language-id) |
+
+## Voice Conversion
+
+Below is a list of supported models for voice conversion.
+
+| Name   | License | Link                                                 |
+| ------ | ------- | ---------------------------------------------------- |
+| LVC-VC | MIT     | [Repository](https://github.com/wonjune-kang/lvc-vc) |
+| NS3VC  | MIT     | [Repository](https://github.com/open-mmlab/Amphion)  |
+
+## A Short Guide to Licenses
+
+Note that this is not legal advice.
+
+Please note that models may have a different license than SpeechToolkit. If this is the case, you must comply with both SpeechToolkit *and* the license of the model.
+
+If you're wondering whether or not you can use a model commercially, you should check both the model's license and the pretrained weights' license. The MIT, Apache 2.0, and BSD licenses typically allow commercial use, unless otherwise specified by the authors. However, the BSD-4-Clause license requires you to provide attribution to the author in certain marketing materials (read the full license for details). If the license name includes "NC," it is likely a non-commercial license, which means you cannot use it commercially. Also note that some models may be trained on copyrighted content, which, depending on your jurisdiction, may influence the ability for you to use the models.
+
+Before using models, you should carefully read their licenses.
