@@ -25,7 +25,7 @@ final = []
 
 for k in extras:
     if not k == "dev":
-        final.append(extras[k])
+        final += extras[k]
 
 extra_pkgs["all"] = final
 
