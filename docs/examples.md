@@ -50,7 +50,7 @@ model = DistilWhisperModel()
 model.infer_file('audio.wav')
 ```
 
-## Voice Cloning
+## Voice Conversion
 
 ```python
 from speechtoolkit.vc import LVC
