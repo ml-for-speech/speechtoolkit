@@ -51,9 +51,19 @@ vc.infer_file(
 ## Language Classification
 
 ```python
-from speechtoolkit.classification.languageclassification import WhisperLanguageClassifier
+from speechtoolkit.classification.languageclassification import WhisperLanguageClassifierModel
 
-lc = WhisperLanguageClassifier()
+lc = WhisperLanguageClassifierModel()
 
 lc.infer_file('audio.wav') # 'en'
+```
+
+## Accent Classification
+
+```python
+from speechtoolkit.classification.accentclassification import EdAccAccentClassifierModel
+
+ac = EdAccAccentClassifierModel()
+
+ac.infer_file('audio.wav') # 'Mainstream US English'
 ```

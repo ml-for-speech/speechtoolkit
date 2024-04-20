@@ -3,9 +3,9 @@ from speechtoolkit.data.languages import language_codes
 from speechtoolkit.utils.device import device_map
 
 
-class WhisperLanguageClassifierModel:
+class EdAccAccentClassifierModel:
     """
-    Use a Whisper-based language classification model.
+    Use a Whisper-based accent classification model trained on the EdAcc dataset. It currently only supports English.
 
     **Args**
 
@@ -17,7 +17,7 @@ class WhisperLanguageClassifierModel:
     def __init__(
         self,
         device="auto",
-        model="ml-for-speech/language-classification",
+        model="ml-for-speech/accent-classification",
         **kwargs,
     ):
         """
@@ -41,7 +41,7 @@ class WhisperLanguageClassifierModel:
 
         **Returns**
 
-        str: The language ISO language code of the detected language.
+        str: The detected accent.
         """
         result = self.pipe(file_path)[0]["label"]
         if result in language_codes.keys():

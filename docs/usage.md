@@ -23,6 +23,9 @@
 
 ## Audio Classification
 
-::: speechtoolkit.classification.languageclassification.WhisperLanguageClassifier
+::: speechtoolkit.classification.languageclassification.WhisperLanguageClassifierModel
+    :docstring:
+    :members:
+::: speechtoolkit.classification.accentclassification.EdAccAccentClassifierModel
     :docstring:
     :members:

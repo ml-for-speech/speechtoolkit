@@ -18,15 +18,12 @@ Below is a list of supported models for automatic speech recognition.
 
 ## Speech Classification
 
-SpeechToolkit supports several different types of speech classification.
+SpeechToolkit supports several different types of speech classification. These models are trained by ML for Speech.
 
-### Language Classification
-
-Automatic language classification uses models to classify the language of spoken audio.
-
-| Name                               | License    | Link                                                                              |
-| ---------------------------------- | ---------- | --------------------------------------------------------------------------------- |
-| WhisperLanguageClassifier | Same | [Model](https://huggingface.co/ml-for-speech/language-classification) |
+| Version | Task                    | Link                                                                  |
+| ------- | ----------------------- | --------------------------------------------------------------------- |
+| V1      | Language Classification | [Model](https://huggingface.co/ml-for-speech/language-classification) |
+| V1      | Accent Classification   | [Model](https://huggingface.co/ml-for-speech/accent-classification)   |
 
 ## Voice Conversion
 
