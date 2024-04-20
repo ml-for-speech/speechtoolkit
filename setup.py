@@ -28,7 +28,7 @@ with open("README.md", "r") as f:
     longdesc = f.read()
 setup(
     name="speechtoolkit",
-    version="0.0.0",
+    version="0.0.1",
     author="ml-for-speech",
     description="ML for Speech presents SpeechToolkit, a unified, all-in-one toolkit for TTS, ASR, VC, & other models.",
     long_description=longdesc,
