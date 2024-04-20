@@ -38,8 +38,8 @@ setup(
     install_requires=[
         "soundfile",
         "librosa",
-        "torch",
         "transformers",
+        "torch",
         "optimum",
     ],
     extras_require=extra_pkgs,
