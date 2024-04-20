@@ -1,4 +1,4 @@
-torch @ git+https://github.com/pytorch/pytorch
+torch
 
 mkdocs
 mkautodoc
