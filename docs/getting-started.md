@@ -26,4 +26,4 @@ pip install speechtoolkit
 
 ## Basic Usage
 
-Now that you've successfully installed SpeechToolkit, it's time to run some models! Head over to the [examples](examples.md) page to see some basic examples or read the [usage guide](usage.md) for detailed documentation.
+Now that you've successfully installed SpeechToolkit, it's time to run some models! Head over to the [examples](examples.md) page to see some basic examples.

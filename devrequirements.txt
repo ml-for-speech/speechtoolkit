@@ -1,7 +1,1 @@
-torch
-
 mkdocs
-mkautodoc
-
-pip
-setuptools
