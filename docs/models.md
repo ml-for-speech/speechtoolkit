@@ -51,3 +51,9 @@ Please note that models may have a different license than SpeechToolkit. If this
 If you're wondering whether or not you can use a model commercially, you should check both the model's license and the pretrained weights' license. The MIT, Apache 2.0, and BSD licenses typically allow commercial use, unless otherwise specified by the authors. However, the BSD-4-Clause license requires you to provide attribution to the author in certain marketing materials (read the full license for details). If the license name includes "NC," it is likely a non-commercial license, which means you cannot use it commercially. Also note that some models may be trained on copyrighted content, which, depending on your jurisdiction, may influence the ability for you to use the models.
 
 Before using models, you should carefully read their licenses.
+
+## Disclaimer
+
+Disclaimer for models trained by SpeechToolkit:
+
+THE MODEL IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS MODEL INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS MODEL.
