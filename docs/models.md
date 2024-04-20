@@ -24,6 +24,8 @@ Below is a list of supported models for automatic speech recognition.
 
 ## Speech Classification
 
+**NOTE: Classification models may make mistakes and should not be used in high-risk situations.**
+
 SpeechToolkit supports several different types of speech classification. These models are trained by ML for Speech.
 
 | Version | Task                    | Link                                                                  |
