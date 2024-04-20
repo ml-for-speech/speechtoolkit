@@ -2,3 +2,7 @@ torch @ git+https://github.com/pytorch/pytorch
 
 mkdocs
 mkautodoc
+
+-U
+pip
+setuptools
