@@ -5,9 +5,14 @@ extras = {
         "lvc",
         "ns3vc",
     ],
-    "fa2": ["flash-attn"],
+    "fa2": [
+        "flash-attn",
+    ],
     "asr": [
         "openai-whisper",
+    ],
+    "tts": [
+        "mfs-styletts2",
     ],
     "dev": [
         "mkdocs",
@@ -41,6 +46,7 @@ setup(
         "transformers",
         "torch",
         "optimum",
+        "txtsplit",
     ],
     extras_require=extra_pkgs,
 )

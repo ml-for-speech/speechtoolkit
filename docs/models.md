@@ -6,7 +6,13 @@ Note that the license "Same" indicates that this is
 
 ## Text-to-Speech
 
-Text to speech is **not currently supported** by SpeechToolkit, but we are actively working on it!
+Below is a list of models supported for text-to-speech:
+
+| Name    | License | Link                                            |
+| ------- | ------- | ----------------------------------------------- |
+| StyleTTS 2 | MIT     | [Repository](https://github.com/yl4579/StyleTTS2) |
+
+Note: StyleTTS 2 by default uses a GPL-licensed phonemizer but we've replaced it with the BSD-licensed [OpenPhonemizer](https://github.com/NeuralVox/OpenPhonemizer).
 
 ## Automatic Speech Recognition
 

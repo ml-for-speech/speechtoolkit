@@ -2,7 +2,23 @@
 
 ## Text-to-Speech
 
-Coming soon
+```python
+from speechtoolkit.tts import SingleSpeakerStyleTTS2Model
+
+model = SingleSpeakerStyleTTS2Model()
+
+model.infer_to_file('Hello, this is a test', 'out.wav')
+```
+
+**Multi-speaker StyleTTS 2 with zero-shot voiec cloning:**
+
+```python
+from speechtoolkit.tts import MultiSpeakerStyleTTS2Model
+
+model = MultiSpeakerStyleTTS2Model()
+
+model.infer_to_file('Hello, this is a test', 'sample.wav', 'out.wav')
+```
 
 ## Automatic Speech Recognition
 

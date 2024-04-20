@@ -1,0 +1,1 @@
+from .styletts2_lib import MultiSpeakerStyleTTS2Model, SingleSpeakerStyleTTS2Model
