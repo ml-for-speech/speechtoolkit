@@ -2,6 +2,8 @@
 
 SpeechToolkit supports several different models for various tasks.
 
+Note that the license "Same" indicates that this is 
+
 ## Text-to-Speech
 
 Text to speech is **not currently supported** by SpeechToolkit, but we are actively working on it!
@@ -24,7 +26,7 @@ Automatic language classification uses models to classify the language of spoken
 
 | Name                               | License    | Link                                                                              |
 | ---------------------------------- | ---------- | --------------------------------------------------------------------------------- |
-| WhisperLanguageClassifier | Apache 2.0 | [Model](https://huggingface.co/sanchit-gandhi/whisper-base-ft-common-language-id) |
+| WhisperLanguageClassifier | Same | [Model](https://huggingface.co/ml-for-speech/language-classification) |
 
 ## Voice Conversion
 

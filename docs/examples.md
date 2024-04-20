@@ -6,6 +6,34 @@ Coming soon
 
 ## Automatic Speech Recognition
 
+```python
+from speechtoolkit.asr import WhisperModel
+
+model = WhisperModel()
+
+model.infer_file('audio.wav')
+```
+
+**With a larger model:**
+
+```python
+from speechtoolkit.asr import WhisperModel
+
+model = WhisperModel('medium')
+
+model.infer_file('audio.wav')
+```
+
+**With DistilWhisper:**
+
+```python
+from speechtoolkit.asr import DistilWhisperModel
+
+model = DistilWhisperModel()
+
+model.infer_file('audio.wav')
+```
+
 ## Voice Cloning
 
 ```python

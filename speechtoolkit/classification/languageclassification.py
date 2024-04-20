@@ -17,7 +17,7 @@ class WhisperLanguageClassifier:
     def __init__(
         self,
         device="auto",
-        model="sanchit-gandhi/whisper-base-ft-common-language-id",
+        model="ml-for-speech/language-classification",
         **kwargs,
     ):
         """
