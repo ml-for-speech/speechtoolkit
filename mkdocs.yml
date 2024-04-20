@@ -1,5 +1,5 @@
 site_name: SpeechToolkit
-copyright: '&copy; 2024 <a href="https://ml-for-speech.github.io/">ML for Speech</a>.'
+copyright: '&copy; 2024 <a href="https://ml-for-speech.github.io/">ML for Speech</a>. All docs are on our <a href="https://github.com/ml-for-speech/speechtoolkit">GitHub Repository</a>.'
 # repo_url: https://github.com/ml-for-speech/speechtoolkit
 
 theme:
