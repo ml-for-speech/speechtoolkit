@@ -6,7 +6,7 @@ class LVCModel:
 
     device (str): The device to use. Defaults to 'auto'
     use_xl_model (bool): Use the XL model vs. the smaller model. Defaults to 'true'
-    **kwargs: Additional arguments to pass to NS3VC package
+    **kwargs: Additional arguments to pass to package
     """
 
     def __init__(
@@ -22,7 +22,7 @@ class LVCModel:
 
         device (str): The device to use. Defaults to 'auto'
         use_xl_model (bool): Use the XL model vs. the smaller model. Defaults to 'true'
-        **kwargs: Additional arguments to pass to NS3VC package
+        **kwargs: Additional arguments to pass to package
         """
         from lvc import LVC
 

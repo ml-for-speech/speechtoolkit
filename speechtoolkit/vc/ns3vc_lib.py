@@ -5,7 +5,7 @@ class NS3VCModel:
     **Args**
 
     device (str): The device to use. Defaults to 'auto'
-    **kwargs: Additional arguments to pass to NS3VC package
+    **kwargs: Additional arguments to pass to package
     """
 
     def __init__(
@@ -19,7 +19,7 @@ class NS3VCModel:
         **Args**
 
         device (str): The device to use. Defaults to 'auto'
-        **kwargs: Additional arguments to pass to NS3VC package
+        **kwargs: Additional arguments to pass to package
         """
         from ns3vc import NS3VC
 

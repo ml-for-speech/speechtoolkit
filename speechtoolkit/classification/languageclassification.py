@@ -11,7 +11,7 @@ class WhisperLanguageClassifierModel:
 
     device (str): The device to use. Defaults to 'auto'
     model (str): The model ID to use on the Hugging Face Hub.
-    **kwargs: Additional arguments to pass to NS3VC package
+    **kwargs: Additional arguments to pass to package
     """
 
     def __init__(
@@ -27,7 +27,7 @@ class WhisperLanguageClassifierModel:
 
         device (str): The device to use. Defaults to 'auto'
         model (str): The model ID to use on the Hugging Face Hub.
-        **kwargs: Additional arguments to pass to NS3VC package
+        **kwargs: Additional arguments to pass to package
         """
         self.pipe = pipeline("audio-classification", model, device=device_map(device))
 
