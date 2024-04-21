@@ -12,6 +12,9 @@ If you prefer not to use SpeechToolkit but would like to interact with models in
 
 - [x] Text-to-speech
   - [x] StyleTTS 2
+  - [ ] MetaVoice
+  - [ ] Parler TTS
+  - [ ] XTTS
 - [x] Voice conversion
   - [x] LVC-VC
   - [x] NaturalSpeech3 Voice Conversion
@@ -23,7 +26,7 @@ If you prefer not to use SpeechToolkit but would like to interact with models in
 - [x] Audio classification
   - [x] Language detection
   - [x] Accent detection
-  - [ ] Large accent detection model
+  - [x] Large accent detection model
 
 ## Installation & Usage
 
