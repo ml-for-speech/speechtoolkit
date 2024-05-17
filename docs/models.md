@@ -31,7 +31,6 @@ SpeechToolkit supports several different types of speech classification. These m
 | Version | Task                    | Link                                                                  |
 | ------- | ----------------------- | --------------------------------------------------------------------- |
 | V1      | Language Classification | [Model](https://huggingface.co/ml-for-speech/language-classification) |
-| V1      | Accent Classification   | [Model](https://huggingface.co/ml-for-speech/accent-classification)   |
 
 ## Voice Conversion
 
