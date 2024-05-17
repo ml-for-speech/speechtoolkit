@@ -25,8 +25,6 @@ If you prefer not to use SpeechToolkit but would like to interact with models in
   - [ ] Canary
 - [x] Audio classification
   - [x] Language detection
-  - [x] Accent detection (Not very accurate)
-  - [x] Large accent detection model (Not very accurate)
 
 ## Installation & Usage
 
