@@ -10,7 +10,7 @@ model = SingleSpeakerStyleTTS2Model()
 model.infer_to_file('Hello, this is a test', 'out.wav')
 ```
 
-**Multi-speaker StyleTTS 2 with zero-shot voiec cloning:**
+**Multi-speaker StyleTTS 2 with zero-shot voice cloning:**
 
 ```python
 from speechtoolkit.tts import MultiSpeakerStyleTTS2Model
